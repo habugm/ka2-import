@@ -11,7 +11,7 @@ function Footer() {
       {/* Column 1: About */}
       <div className="col-12 col-lg-4 footer-about">
         <a href="index.html" className="logo d-flex align-items-center mb-2">
-          <span className="sitename">RT Import</span>
+          <span className="sitename">KA2 General Import & Export</span>
         </a>
         <div className="footer-contact pt-2">
           <p>Lideta Subcity, Blen Plaza 7<sup>th</sup> Floor</p>
