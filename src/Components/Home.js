@@ -148,45 +148,45 @@ function Home() {
     className="img-fluid rounded mb-2"
     alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}
   />
-  <h6>A</h6>
+  <h6>Shovel</h6>
 </div>
 
     {/* Project 2 */}
     <div className="col-6 col-lg-3 text-center mb-4" >
       <img src="assets/img/construction/2.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>B</h6>
+      <h6>Hammer</h6>
     </div>
 
     {/* Project 3 */}
     <div className="col-6 col-lg-3 text-center mb-4">
       <img src="assets/img/construction/3.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }} />
-      <h6>C</h6>
+      <h6>Disc</h6>
     </div>
 
     {/* Project 4 */}
     <div className="col-6 col-lg-3 text-center mb-4">
       <img src="assets/img/construction/4.jpg" className="img-fluid rounded mb-2" alt="Project 4"  style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>D</h6>
+      <h6>Padlock</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
       <img src="assets/img/construction/5.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>E</h6>
+      <h6>Hacksaw</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
       <img src="assets/img/construction/6.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>F</h6>
+      <h6>Hoe</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
       <img src="assets/img/construction/7.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>G</h6>
+      <h6>Pickaxe</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
       <img src="assets/img/construction/8.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>H</h6>
+      <h6>Hose</h6>
     </div>
 
   </div>
