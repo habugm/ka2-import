@@ -8,7 +8,7 @@ function Header() {
   <div className="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
     <a href="#hero" className="logo d-flex align-items-center">
       
-      <h1 className="sitename">KA2 - IMPORT</h1> <span>.</span>
+      <h1 className="sitename" style={{ border: "2px solid white", padding: "2px" }}>KA2 - IMPORT</h1>
     </a>
     <nav id="navmenu" className="navmenu">
       <ul>

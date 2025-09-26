@@ -55,7 +55,7 @@ function Home() {
       
       <div className="col-lg-5 d-flex align-items-center">
         <div className="w-100">
-          <img src="assets/img/ka2-logo.png" className="img-fluid rounded" alt="Yotek Construction" />
+          <img src="assets/img/logo2.png" className="img-fluid rounded" alt="Yotek Construction" />
         </div>
       </div>
     </div>
