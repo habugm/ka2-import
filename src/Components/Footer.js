@@ -8,7 +8,7 @@ function Footer() {
   <div className="container footer-top">
     <div className="row gy-4">
       
-      {/* Column 1: About */}
+      
       <div className="col-12 col-lg-4 footer-about">
         <a href="index.html" className="logo d-flex align-items-center mb-2">
           <span className="sitename">KA2 General Import & Export</span>
@@ -22,7 +22,7 @@ function Footer() {
         
       </div>
 
-      {/* Column 2: Useful Links */}
+      
       <div className="col-12 col-lg-4 footer-links">
         <h4>Useful Links</h4>
         <ul>
@@ -33,7 +33,7 @@ function Footer() {
         </ul>
       </div>
 
-      {/* Column 3: (Add any other content like Services, Contact, or Newsletter) */}
+     
       <div className="col-12 col-lg-4 footer-links">
         <h4>Social Media Links</h4>
         <div className="social-links d-flex mt-3">

@@ -1,6 +1,9 @@
 import React from 'react';
 
 function Header() {
+  const handleToggle = () => {
+  document.body.classList.toggle("mobile-nav-active");
+};
   return (
     <>
       
@@ -18,7 +21,12 @@ function Header() {
         <li><a href="#projects">Products</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <i className="mobile-nav-toggle d-xl-none bi bi-list" />
+      {/* <i className="mobile-nav-toggle d-xl-none bi bi-list" /> */}
+      <i
+  className="mobile-nav-toggle d-xl-none bi bi-list"
+  onClick={handleToggle}
+/>
+
     </nav>
   </div>
 </header>
