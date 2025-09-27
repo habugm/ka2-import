@@ -72,27 +72,27 @@ function Home() {
         <div className="col-lg-4 col-md-6">
           <div className="service-item  position-relative">
             <div className="icon">
-              <i class="bi bi-arrow-down-circle-fill" style={{color:'#0E87CC'}} />
+              <i class="bi bi-arrow-down-circle-fill" style={{color:'#003366'}} />
             </div>
-            <h3 style={{color:'#0E87CC'}}>Imports</h3>
+            <h3 style={{color:'#003366'}}>Imports</h3>
             <p>At KA2 General Import and Export, we specialize in importing high-quality construction and electrical materials from trusted international suppliers. Our import services are designed to provide Ethiopian businesses, contractors, and individuals with access to durable, reliable, and modern products that meet global standards.</p>
           </div>
         </div>{/* End Service Item */}
         <div className="col-lg-4 col-md-6">
           <div className="service-item position-relative">
             <div className="icon">
-              <i className="bi bi-shop" style={{color:'#0E87CC'}} />
+              <i className="bi bi-shop" style={{color:'#003366'}} />
             </div>
-            <h3 style={{color:'#0E87CC'}}>Retail Disribution</h3>
+            <h3 style={{color:'#003366'}}>Retail Disribution</h3>
             <p>Through our retail distribution network, KA2 General Import and Export makes construction and electrical materials easily accessible to customers across Ethiopia. We ensure that contractors, businesses, and individual buyers can find the products they need at competitive prices without compromising on quality.</p>
           </div>
         </div>{/* End Service Item */}
         <div className="col-lg-4 col-md-6">
           <div className="service-item position-relative">
             <div className="icon">
-              <i className="bi bi-arrow-up-circle-fill" style={{color:'#0E87CC'}} />
+              <i className="bi bi-arrow-up-circle-fill" style={{color:'#003366'}} />
             </div>
-            <h3 style={{color:'#0E87CC'}}>Exports</h3>
+            <h3 style={{color:'#003366'}}>Exports</h3>
             <p>At KA2 General Import and Export, we are expanding our operations to include exports, showcasing Ethiopia’s quality products to international markets. Our export services focus on delivering locally sourced goods that meet global standards, ensuring reliability, consistency, and value for our partners abroad.</p>   
                    </div>
         </div>{/* End Service Item */}
@@ -106,7 +106,7 @@ function Home() {
       <p>RT Import supplies quality air conditioning systems, electrical construction materials, and beer gauges for diverse industrial and commercial needs.</p>
     </div>
   <div className="container">
-    <ul className="nav nav-tabs row  g-2 d-flex" role="tablist">
+    <ul className="nav nav-tabs row  g-2 d-flex" role="tablist" style={{backgroundColor:"#003366"}}>
       <li className="nav-item col-3" role="presentation">
         <a className="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="true" role="tab">
           <h4>Construction</h4>
