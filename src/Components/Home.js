@@ -319,7 +319,7 @@ function Home() {
         <div className="info-item d-flex flex-column justify-content-center align-items-center">
           <i className="bi bi-telephone" />
           <h3>Call Us</h3>
-          <p>+2519 11 46 17 52</p>
+          <p>+2519 911 46 17 52</p>
         </div>
       </div>{/* End Info Item */}
       <div className="col-lg-3 col-md-6">
