@@ -103,7 +103,7 @@ function Home() {
   <section id="projects" className="features section">
     <div className="container section-title">
       <h2>Products</h2>
-      <p>KA2 Import supplies quality Construction, electrical , and Househol Materials.</p>
+      <p>KA2 General Import & Export provides quality construction, electrical, household materials, and a diverse range of products including speakers, slippers, playing cards, and more.</p>
     </div>
   <div className="container">
     <ul className="nav nav-tabs row  g-2 d-flex" role="tablist" style={{backgroundColor:"#003366"}}>
