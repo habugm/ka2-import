@@ -103,7 +103,7 @@ function Home() {
   <section id="projects" className="features section">
     <div className="container section-title">
       <h2>Products</h2>
-      <p>RT Import supplies quality air conditioning systems, electrical construction materials, and beer gauges for diverse industrial and commercial needs.</p>
+      <p>KA2 Import supplies quality Construction, electrical , and Househol Materials.</p>
     </div>
   <div className="container">
     <ul className="nav nav-tabs row  g-2 d-flex" role="tablist" style={{backgroundColor:"#003366"}}>
