@@ -228,22 +228,22 @@ function Home() {
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/9.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Roofing Nails</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/10.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Black Wire</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/11.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Glue</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/12.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Bridge Welding</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
@@ -253,66 +253,66 @@ function Home() {
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/13.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Hoe Head</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/14.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Sickle</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/15.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Angle Iron</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/16.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Sheet Metal</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/17.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Hinge</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/18.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Screw</h6>
     </div>
 
     
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/20.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Corrugated Iron</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/21.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Glove</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/22.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Glue</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/23.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Tower Bolt</h6>
     </div>
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/24.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Roofing Nail</h6>
     </div>
 
     
 
     <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/26.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>Hose</h6>
+      <h6>Plastic Tarp</h6>
     </div>
 
   </div>
