@@ -322,11 +322,11 @@ function Home() {
             <h3 className="post-title">From Ningbo</h3>
             <div className="meta d-flex align-items-center">
               <div className="d-flex align-items-center">
-                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+                <span className="ps-2">CHN</span>
               </div>
               <span className="px-3 text-black-50">/</span>
               <div className="d-flex align-items-center">
-               <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+               <span className="ps-2">DJI</span>
               </div>
             </div>
             <hr />
@@ -343,11 +343,11 @@ function Home() {
             <h3 className="post-title">From Ningbo</h3>
             <div className="meta d-flex align-items-center">
               <div className="d-flex align-items-center">
-                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+                <span className="ps-2">CHN</span>
               </div>
               <span className="px-3 text-black-50">/</span>
               <div className="d-flex align-items-center">
-                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+                <span className="ps-2">DJI</span>
               </div>
             </div>
             <hr />
@@ -364,11 +364,11 @@ function Home() {
             <h3 className="post-title">From Ningbo</h3>
             <div className="meta d-flex align-items-center">
               <div className="d-flex align-items-center">
-                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+                <span className="ps-2">CHN</span>
               </div>
               <span className="px-3 text-black-50">/</span>
               <div className="d-flex align-items-center">
-                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+                <span className="ps-2">DJI</span>
               </div>
             </div>
             <hr />
@@ -387,11 +387,11 @@ function Home() {
             <h3 className="post-title">From Ningbo</h3>
             <div className="meta d-flex align-items-center">
               <div className="d-flex align-items-center">
-                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+                <span className="ps-2">CHN</span>
               </div>
               <span className="px-3 text-black-50">/</span>
               <div className="d-flex align-items-center">
-                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+                <span className="ps-2">DJI</span>
               </div>
             </div>
             <hr />
@@ -411,11 +411,11 @@ function Home() {
             <h3 className="post-title">From Ningbo</h3>
             <div className="meta d-flex align-items-center">
               <div className="d-flex align-items-center">
-                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+                <span className="ps-2">CHN</span>
               </div>
               <span className="px-3 text-black-50">/</span>
               <div className="d-flex align-items-center">
-                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+                <span className="ps-2">DJI</span>
               </div>
             </div>
             <hr />
@@ -434,11 +434,11 @@ function Home() {
             <h3 className="post-title">From Ningbo</h3>
             <div className="meta d-flex align-items-center">
               <div className="d-flex align-items-center">
-                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+                <span className="ps-2">CHN</span>
               </div>
               <span className="px-3 text-black-50">/</span>
               <div className="d-flex align-items-center">
-                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+                <span className="ps-2">DJI</span>
               </div>
             </div>
             <hr />
@@ -456,11 +456,11 @@ function Home() {
             <h3 className="post-title">From Ningbo</h3>
             <div className="meta d-flex align-items-center">
               <div className="d-flex align-items-center">
-                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+                <span className="ps-2">CHN</span>
               </div>
               <span className="px-3 text-black-50">/</span>
               <div className="d-flex align-items-center">
-                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+                <span className="ps-2">DJI</span>
               </div>
             </div>
             <hr />
@@ -478,11 +478,11 @@ function Home() {
             <h3 className="post-title">From Ningbo</h3>
             <div className="meta d-flex align-items-center">
               <div className="d-flex align-items-center">
-                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+                <span className="ps-2">CHN</span>
               </div>
               <span className="px-3 text-black-50">/</span>
               <div className="d-flex align-items-center">
-                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+                <span className="ps-2">DJI</span>
               </div>
             </div>
             <hr />
