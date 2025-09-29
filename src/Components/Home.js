@@ -5,7 +5,7 @@ function Home() {
     <>
       
      <main className="main">
-  {/* Hero Section */}
+  
   <section id="hero" className="hero section dark-background">
     <div className="info d-flex align-items-center">
       <div className="container">
@@ -39,15 +39,14 @@ function Home() {
         <span className="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true" />
       </a>
     </div>
-  </section>{/* /Hero Section */}
-  {/* Get Started Section */}
+  </section>
   <section id="get-started" className="get-started section">
   <div className="container">
     <div className="row justify-content-between gy-4">
       <div className="col-lg-6 d-flex align-items-center">
         <div className="content">
           <h3>About Us.</h3>
-          <p><strong>KA2 General Import and Export PLC</strong> was founded in 2018 with the vision of becoming one of Ethiopia’s and Africa's most dependable providers of construction and electrical materials. Since our establishment, we have proudly built a reputation for reliability, professionalism, and quality service. Our company plays a vital role in supporting the nation’s infrastructure development by supplying materials that meet the highest standards of durability and performance.</p>
+          <p><strong>KA2 General Import and Export PLC</strong> was founded in 2018 with the vision of becoming one of Ethiopia’s and most African countries most dependable providers of construction and electrical materials. Since our establishment, we have proudly built a reputation for reliability, professionalism, and quality service. Our company plays a vital role in supporting the nation’s infrastructure development by supplying materials that meet the highest standards of durability and performance.</p>
           
           <p>At KA2, we believe in creating long-term value for our clients through honesty, innovation, and commitment. From individual builders to large-scale contractors, we serve a diverse range of customers with products tailored to their needs. As Ethiopia continues to grow, we remain committed to being a trusted partner in building the future — one project at a time.</p>
         </div>
@@ -55,13 +54,13 @@ function Home() {
       
       <div className="col-lg-5 d-flex align-items-center">
         <div className="w-100">
-          <img src="assets/img/logo2.png" className="img-fluid rounded" alt="Yotek Construction" />
+          <img src="assets/img/logo2.png" className="img-fluid rounded" alt="KA2 Import" />
         </div>
       </div>
     </div>
   </div>
 </section>
-  <section id="services" className="services section light-background">
+  <section id="services" className="services section light-background" style={{ backgroundColor:"#cfd0d1ff" }}>
     {/* Section Title */}
     <div className="container section-title">
       <h2>Services</h2>
@@ -95,7 +94,7 @@ function Home() {
             <h3 style={{color:'#003366'}}>Exports</h3>
             <p>At KA2 General Import and Export, we are expanding our operations to include exports, showcasing Ethiopia’s quality products to international markets. Our export services focus on delivering locally sourced goods that meet global standards, ensuring reliability, consistency, and value for our partners abroad.</p>   
                    </div>
-        </div>{/* End Service Item */}
+        </div>
         
       </div>
     </div>
@@ -194,92 +193,92 @@ function Home() {
 
           
         </div>
-      </div>{/* End tab content item */}
+      </div>
       <div className="tab-pane fade" id="features-tab-2" role="tabpanel">
         <div className="row">
           
           <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/electrical/1.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/electrical/1.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>A</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/electrical/2.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/electrical/2.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>B</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/electrical/3.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/electrical/3.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>C</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/electrical/4.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/electrical/4.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>D</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/electrical/5.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/electrical/5.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>E</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/electrical/6.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/electrical/6.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>F</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/electrical/7.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/electrical/7.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>G</h6>
     </div>
 
         </div>
-      </div>{/* End tab content item */}
+      </div>
       <div className="tab-pane fade" id="features-tab-3" role="tabpanel">
         <div className="row">
          
          <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/household/1.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/household/1.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>A</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/household/2.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/household/2.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>B</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/household/3.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/household/3.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>C</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/household/4.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/household/4.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>D</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/household/5.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/household/5.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>E</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/household/6.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/household/6.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>F</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/household/7.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/household/7.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>G</h6>
     </div>
 
     <div className="col-6 col-lg-3 text-center mb-4">
-      <img src="assets/img/household/8.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <img src="assets/img/household/8.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>H</h6>
     </div>
 
         </div>
-      </div>{/* End tab content item */}
+      </div>
       <div className="tab-pane fade" id="features-tab-4" role="tabpanel">
         <div className="row">
           <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
@@ -297,10 +296,211 @@ function Home() {
             <img src="assets/img/ka2-logo.png" alt className="img-fluid" />
           </div>
         </div>
-      </div>{/* End tab content item */}
+      </div>
     </div>
   </div>
 </section>
+
+
+
+
+<section id="recent-blog-posts" className="recent-blog-posts section" style={{ backgroundColor:"#cfd0d1ff" }}>
+  {/* Section Title */}
+  <div className="container section-title">
+    <h2>Gallery</h2>
+    <p>You can see Container Loading, warehouse Shots, Logistics In Action, and shipment Preparations Below</p>
+  </div>{/* End Section Title */}
+  <div className="container" >
+    <div className="row gy-5" >
+      <div className="col-xl-3 col-md-6 col-6">
+        <div className="post-item position-relative h-100">
+          <div className="post-img position-relative overflow-hidden">
+            <img src="assets/img/gallery/1.jpg" className="img-fluid" alt />
+            <span className="post-date">December 12</span>
+          </div>
+          <div className="post-content d-flex flex-column">
+            <h3 className="post-title">From Ningbo</h3>
+            <div className="meta d-flex align-items-center">
+              <div className="d-flex align-items-center">
+                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+              </div>
+              <span className="px-3 text-black-50">/</span>
+              <div className="d-flex align-items-center">
+               <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+              </div>
+            </div>
+            <hr />
+                    </div>
+        </div>
+      </div>{/* End post item */}
+      <div className="col-xl-3 col-md-6 col-6">
+        <div className="post-item position-relative h-100">
+          <div className="post-img position-relative overflow-hidden">
+            <img src="assets/img/gallery/2.jpg" className="img-fluid" alt />
+            <span className="post-date">July 17</span>
+          </div>
+          <div className="post-content d-flex flex-column">
+            <h3 className="post-title">From Ningbo</h3>
+            <div className="meta d-flex align-items-center">
+              <div className="d-flex align-items-center">
+                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+              </div>
+              <span className="px-3 text-black-50">/</span>
+              <div className="d-flex align-items-center">
+                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+              </div>
+            </div>
+            <hr />
+                    </div>
+        </div>
+      </div>{/* End post item */}
+      <div className="col-xl-3 col-md-6 col-6">
+        <div className="post-item position-relative h-100">
+          <div className="post-img position-relative overflow-hidden">
+            <img src="assets/img/gallery/1.jpg" className="img-fluid" alt />
+            <span className="post-date">September 05</span>
+          </div>
+          <div className="post-content d-flex flex-column">
+            <h3 className="post-title">From Ningbo</h3>
+            <div className="meta d-flex align-items-center">
+              <div className="d-flex align-items-center">
+                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+              </div>
+              <span className="px-3 text-black-50">/</span>
+              <div className="d-flex align-items-center">
+                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+              </div>
+            </div>
+            <hr />
+                    </div>
+        </div>
+      </div>{/* End post item */}
+
+
+      <div className="col-xl-3 col-md-6 col-6">
+        <div className="post-item position-relative h-100">
+          <div className="post-img position-relative overflow-hidden">
+            <img src="assets/img/gallery/2.jpg" className="img-fluid" alt />
+            <span className="post-date">December 12</span>
+          </div>
+          <div className="post-content d-flex flex-column">
+            <h3 className="post-title">From Ningbo</h3>
+            <div className="meta d-flex align-items-center">
+              <div className="d-flex align-items-center">
+                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+              </div>
+              <span className="px-3 text-black-50">/</span>
+              <div className="d-flex align-items-center">
+                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+              </div>
+            </div>
+            <hr />
+                    </div>
+        </div>
+      </div>
+
+
+
+      <div className="col-xl-3 col-md-6 col-6">
+        <div className="post-item position-relative h-100">
+          <div className="post-img position-relative overflow-hidden">
+            <img src="assets/img/gallery/2.jpg" className="img-fluid" alt />
+            <span className="post-date">December 12</span>
+          </div>
+          <div className="post-content d-flex flex-column">
+            <h3 className="post-title">From Ningbo</h3>
+            <div className="meta d-flex align-items-center">
+              <div className="d-flex align-items-center">
+                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+              </div>
+              <span className="px-3 text-black-50">/</span>
+              <div className="d-flex align-items-center">
+                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+              </div>
+            </div>
+            <hr />
+                    </div>
+        </div>
+      </div>
+
+
+      <div className="col-xl-3 col-md-6 col-6">
+        <div className="post-item position-relative h-100">
+          <div className="post-img position-relative overflow-hidden">
+            <img src="assets/img/gallery/1.jpg" className="img-fluid" alt />
+            <span className="post-date">December 12</span>
+          </div>
+          <div className="post-content d-flex flex-column">
+            <h3 className="post-title">From Ningbo</h3>
+            <div className="meta d-flex align-items-center">
+              <div className="d-flex align-items-center">
+                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+              </div>
+              <span className="px-3 text-black-50">/</span>
+              <div className="d-flex align-items-center">
+                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+              </div>
+            </div>
+            <hr />
+                  </div>
+        </div>
+      </div>
+
+      <div className="col-xl-3 col-md-6 col-6">
+        <div className="post-item position-relative h-100">
+          <div className="post-img position-relative overflow-hidden">
+            <img src="assets/img/gallery/2.jpg" className="img-fluid" alt />
+            <span className="post-date">December 12</span>
+          </div>
+          <div className="post-content d-flex flex-column">
+            <h3 className="post-title">From Ningbo</h3>
+            <div className="meta d-flex align-items-center">
+              <div className="d-flex align-items-center">
+                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+              </div>
+              <span className="px-3 text-black-50">/</span>
+              <div className="d-flex align-items-center">
+                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+              </div>
+            </div>
+            <hr />
+                  </div>
+        </div>
+      </div>
+
+      <div className="col-xl-3 col-md-6 col-6">
+        <div className="post-item position-relative h-100">
+          <div className="post-img position-relative overflow-hidden" >
+            <img src="assets/img/gallery/1.jpg" className="img-fluid" alt />
+            <span className="post-date">December 12</span>
+          </div>
+          <div className="post-content d-flex flex-column">
+            <h3 className="post-title">From Ningbo</h3>
+            <div className="meta d-flex align-items-center">
+              <div className="d-flex align-items-center">
+                <i className="bi bi-person" /> <span className="ps-2">CHN</span>
+              </div>
+              <span className="px-3 text-black-50">/</span>
+              <div className="d-flex align-items-center">
+                <i className="bi bi-folder2" /> <span className="ps-2">DJI</span>
+              </div>
+            </div>
+            <hr />
+                  </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
 <section id="contact" className="contact section">
   <div className="container section-title">
       <h2>Contact US</h2>
@@ -357,10 +557,10 @@ function Home() {
             </div>
           </div>
         </form>
-      </div>{/* End Contact Form */}
+      </div>
     </div>
   </div>
-</section>{/* /Contact Section */}
+</section>
 
 
 </main>
