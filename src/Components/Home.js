@@ -1,6 +1,49 @@
-
+import React, { useState } from "react";
 
 function Home() {
+
+
+  const photos = [
+    { src: "assets/img/gallery/1.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/2.jpg", date: "July 17", title: "From Ningbo" },
+    { src: "assets/img/gallery/3.jpg", date: "September 05", title: "From Ningbo" },
+    { src: "assets/img/gallery/4.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/5.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/6.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/7.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/8.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/9.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/10.jpg", date: "July 17", title: "From Ningbo" },
+    { src: "assets/img/gallery/11.jpg", date: "September 05", title: "From Ningbo" },
+    { src: "assets/img/gallery/12.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/13.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/14.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/15.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/16.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/17.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/18.jpg", date: "July 17", title: "From Ningbo" },
+    { src: "assets/img/gallery/19.jpg", date: "September 05", title: "From Ningbo" },
+    { src: "assets/img/gallery/20.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/21.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/23.jpg", date: "December 12", title: "From Ningbo" },
+    { src: "assets/img/gallery/26.jpg", date: "December 12", title: "From Ningbo" },
+  ];
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const photosPerPage = 8;
+
+  // Calculate pagination
+  const indexOfLast = currentPage * photosPerPage;
+  const indexOfFirst = indexOfLast - photosPerPage;
+  const currentPhotos = photos.slice(indexOfFirst, indexOfLast);
+  const totalPages = Math.ceil(photos.length / photosPerPage);
+
+  const goToPage = (page) => {
+    if (page >= 1 && page <= totalPages) {
+      setCurrentPage(page);
+    }
+  };
+
   return (
     <>
       
@@ -139,7 +182,7 @@ function Home() {
       <h6>A</h6>
     </div> */}
     <div
-  className="col-6 col-lg-3 text-center mb-4"
+  className="col-4 col-lg-2 text-center mb-4"
   
 >
   <img
@@ -151,40 +194,124 @@ function Home() {
 </div>
 
     {/* Project 2 */}
-    <div className="col-6 col-lg-3 text-center mb-4" >
+    <div className="col-4 col-lg-2 text-center mb-4" >
       <img src="assets/img/construction/2.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>Hammer</h6>
     </div>
 
     {/* Project 3 */}
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/3.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }} />
       <h6>Disc</h6>
     </div>
 
     {/* Project 4 */}
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/4.jpg" className="img-fluid rounded mb-2" alt="Project 4"  style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>Padlock</h6>
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/5.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>Hacksaw</h6>
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/6.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>Hoe</h6>
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/7.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>Pickaxe</h6>
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/9.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/10.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/11.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/12.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/construction/8.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/13.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/14.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/15.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/16.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/17.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/18.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/20.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/21.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/22.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/23.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/24.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      <h6>Hose</h6>
+    </div>
+
+    
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/construction/26.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
       <h6>Hose</h6>
     </div>
 
@@ -304,198 +431,75 @@ function Home() {
 
 
 
-<section id="recent-blog-posts" className="recent-blog-posts section" style={{ backgroundColor:"#cfd0d1ff" }}>
-  {/* Section Title */}
-  <div className="container section-title">
-    <h2>Gallery</h2>
-    <p>You can see Container Loading, warehouse Shots, Logistics In Action, and shipment Preparations Below</p>
-  </div>{/* End Section Title */}
-  <div className="container" >
-    <div className="row gy-5" >
-      <div className="col-xl-3 col-md-6 col-6">
-        <div className="post-item position-relative h-100">
-          <div className="post-img position-relative overflow-hidden">
-            <img src="assets/img/gallery/1.jpg" className="img-fluid" alt />
-            <span className="post-date">December 12</span>
-          </div>
-          <div className="post-content d-flex flex-column">
-            <h3 className="post-title">From Ningbo</h3>
-            <div className="meta d-flex align-items-center">
-              <div className="d-flex align-items-center">
-                <span className="ps-2">CHN</span>
-              </div>
-              <span className="px-3 text-black-50">/</span>
-              <div className="d-flex align-items-center">
-               <span className="ps-2">DJI</span>
-              </div>
-            </div>
-            <hr />
-                    </div>
-        </div>
-      </div>{/* End post item */}
-      <div className="col-xl-3 col-md-6 col-6">
-        <div className="post-item position-relative h-100">
-          <div className="post-img position-relative overflow-hidden">
-            <img src="assets/img/gallery/2.jpg" className="img-fluid" alt />
-            <span className="post-date">July 17</span>
-          </div>
-          <div className="post-content d-flex flex-column">
-            <h3 className="post-title">From Ningbo</h3>
-            <div className="meta d-flex align-items-center">
-              <div className="d-flex align-items-center">
-                <span className="ps-2">CHN</span>
-              </div>
-              <span className="px-3 text-black-50">/</span>
-              <div className="d-flex align-items-center">
-                <span className="ps-2">DJI</span>
-              </div>
-            </div>
-            <hr />
-                    </div>
-        </div>
-      </div>{/* End post item */}
-      <div className="col-xl-3 col-md-6 col-6">
-        <div className="post-item position-relative h-100">
-          <div className="post-img position-relative overflow-hidden">
-            <img src="assets/img/gallery/1.jpg" className="img-fluid" alt />
-            <span className="post-date">September 05</span>
-          </div>
-          <div className="post-content d-flex flex-column">
-            <h3 className="post-title">From Ningbo</h3>
-            <div className="meta d-flex align-items-center">
-              <div className="d-flex align-items-center">
-                <span className="ps-2">CHN</span>
-              </div>
-              <span className="px-3 text-black-50">/</span>
-              <div className="d-flex align-items-center">
-                <span className="ps-2">DJI</span>
-              </div>
-            </div>
-            <hr />
-                    </div>
-        </div>
-      </div>{/* End post item */}
-
-
-      <div className="col-xl-3 col-md-6 col-6">
-        <div className="post-item position-relative h-100">
-          <div className="post-img position-relative overflow-hidden">
-            <img src="assets/img/gallery/2.jpg" className="img-fluid" alt />
-            <span className="post-date">December 12</span>
-          </div>
-          <div className="post-content d-flex flex-column">
-            <h3 className="post-title">From Ningbo</h3>
-            <div className="meta d-flex align-items-center">
-              <div className="d-flex align-items-center">
-                <span className="ps-2">CHN</span>
-              </div>
-              <span className="px-3 text-black-50">/</span>
-              <div className="d-flex align-items-center">
-                <span className="ps-2">DJI</span>
-              </div>
-            </div>
-            <hr />
-                    </div>
-        </div>
+<section
+      id="recent-blog-posts"
+      className="recent-blog-posts section"
+      style={{ backgroundColor: "#cfd0d1ff" }}
+    >
+      {/* Section Title */}
+      <div className="container section-title">
+        <h2>Gallery</h2>
+        <p>
+          You can see Container Loading, Warehouse Shots, Logistics In Action, and Shipment Preparations Below
+        </p>
       </div>
 
-
-
-      <div className="col-xl-3 col-md-6 col-6">
-        <div className="post-item position-relative h-100">
-          <div className="post-img position-relative overflow-hidden">
-            <img src="assets/img/gallery/2.jpg" className="img-fluid" alt />
-            <span className="post-date">December 12</span>
-          </div>
-          <div className="post-content d-flex flex-column">
-            <h3 className="post-title">From Ningbo</h3>
-            <div className="meta d-flex align-items-center">
-              <div className="d-flex align-items-center">
-                <span className="ps-2">CHN</span>
-              </div>
-              <span className="px-3 text-black-50">/</span>
-              <div className="d-flex align-items-center">
-                <span className="ps-2">DJI</span>
-              </div>
-            </div>
-            <hr />
+      <div className="container">
+        <div className="row gy-5">
+          {currentPhotos.map((photo, index) => (
+            <div key={index} className="col-xl-3 col-md-6 col-6">
+              <div className="post-item position-relative h-100">
+                <div className="post-img position-relative overflow-hidden">
+                  <img src={photo.src} className="img-fluid" alt="" />
+                  <span className="post-date">{photo.date}</span>
+                </div>
+                <div className="post-content d-flex flex-column">
+                  <h3 className="post-title">{photo.title}</h3>
+                  <div className="meta d-flex align-items-center">
+                    <div className="d-flex align-items-center">
+                      <span className="ps-2">CHN</span>
                     </div>
-        </div>
-      </div>
-
-
-      <div className="col-xl-3 col-md-6 col-6">
-        <div className="post-item position-relative h-100">
-          <div className="post-img position-relative overflow-hidden">
-            <img src="assets/img/gallery/1.jpg" className="img-fluid" alt />
-            <span className="post-date">December 12</span>
-          </div>
-          <div className="post-content d-flex flex-column">
-            <h3 className="post-title">From Ningbo</h3>
-            <div className="meta d-flex align-items-center">
-              <div className="d-flex align-items-center">
-                <span className="ps-2">CHN</span>
-              </div>
-              <span className="px-3 text-black-50">/</span>
-              <div className="d-flex align-items-center">
-                <span className="ps-2">DJI</span>
-              </div>
-            </div>
-            <hr />
+                    <span className="px-3 text-black-50">/</span>
+                    <div className="d-flex align-items-center">
+                      <span className="ps-2">DJI</span>
+                    </div>
                   </div>
-        </div>
-      </div>
-
-      <div className="col-xl-3 col-md-6 col-6">
-        <div className="post-item position-relative h-100">
-          <div className="post-img position-relative overflow-hidden">
-            <img src="assets/img/gallery/2.jpg" className="img-fluid" alt />
-            <span className="post-date">December 12</span>
-          </div>
-          <div className="post-content d-flex flex-column">
-            <h3 className="post-title">From Ningbo</h3>
-            <div className="meta d-flex align-items-center">
-              <div className="d-flex align-items-center">
-                <span className="ps-2">CHN</span>
-              </div>
-              <span className="px-3 text-black-50">/</span>
-              <div className="d-flex align-items-center">
-                <span className="ps-2">DJI</span>
+                  <hr />
+                </div>
               </div>
             </div>
-            <hr />
-                  </div>
+          ))}
         </div>
+
+        {/* Bootstrap Pagination */}
+        <nav className="d-flex justify-content-center mt-4">
+          <ul className="pagination">
+            {/* Previous */}
+            <li className={`page-item ${currentPage === 1 ? "disabled" : ""}`}>
+              <button className="page-link" onClick={() => goToPage(currentPage - 1)}>
+                Previous
+              </button>
+            </li>
+
+            {/* Page Numbers */}
+            {Array.from({ length: totalPages }, (_, i) => (
+              <li key={i + 1} className={`page-item ${currentPage === i + 1 ? "active" : ""}`}>
+                <button className="page-link" onClick={() => goToPage(i + 1)}>
+                  {i + 1}
+                </button>
+              </li>
+            ))}
+
+            {/* Next */}
+            <li className={`page-item ${currentPage === totalPages ? "disabled" : ""}`}>
+              <button className="page-link" onClick={() => goToPage(currentPage + 1)}>
+                Next
+              </button>
+            </li>
+          </ul>
+        </nav>
       </div>
-
-      <div className="col-xl-3 col-md-6 col-6">
-        <div className="post-item position-relative h-100">
-          <div className="post-img position-relative overflow-hidden" >
-            <img src="assets/img/gallery/1.jpg" className="img-fluid" alt />
-            <span className="post-date">December 12</span>
-          </div>
-          <div className="post-content d-flex flex-column">
-            <h3 className="post-title">From Ningbo</h3>
-            <div className="meta d-flex align-items-center">
-              <div className="d-flex align-items-center">
-                <span className="ps-2">CHN</span>
-              </div>
-              <span className="px-3 text-black-50">/</span>
-              <div className="d-flex align-items-center">
-                <span className="ps-2">DJI</span>
-              </div>
-            </div>
-            <hr />
-                  </div>
-        </div>
-      </div>
-
-
-
-
-    </div>
-  </div>
-</section>
+    </section>
 
 
 
