@@ -47,7 +47,7 @@ function Home() {
       <div className="col-lg-6 d-flex align-items-center">
         <div className="content">
           <h3>About Us.</h3>
-          <p><strong>KA2 General Import and Export PLC</strong> was founded in 2018 with the vision of becoming one of Ethiopia’s most dependable providers of construction and electrical materials. Since our establishment, we have proudly built a reputation for reliability, professionalism, and quality service. Our company plays a vital role in supporting the nation’s infrastructure development by supplying materials that meet the highest standards of durability and performance.</p>
+          <p><strong>KA2 General Import and Export PLC</strong> was founded in 2018 with the vision of becoming one of Ethiopia’s and Africa's most dependable providers of construction and electrical materials. Since our establishment, we have proudly built a reputation for reliability, professionalism, and quality service. Our company plays a vital role in supporting the nation’s infrastructure development by supplying materials that meet the highest standards of durability and performance.</p>
           
           <p>At KA2, we believe in creating long-term value for our clients through honesty, innovation, and commitment. From individual builders to large-scale contractors, we serve a diverse range of customers with products tailored to their needs. As Ethiopia continues to grow, we remain committed to being a trusted partner in building the future — one project at a time.</p>
         </div>
@@ -319,7 +319,7 @@ function Home() {
         <div className="info-item d-flex flex-column justify-content-center align-items-center">
           <i className="bi bi-telephone" />
           <h3>Call Us</h3>
-          <p>+2519 911 46 17 52</p>
+          <p>+251 993 45 10 76</p>
         </div>
       </div>{/* End Info Item */}
       <div className="col-lg-3 col-md-6">
