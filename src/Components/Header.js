@@ -29,6 +29,7 @@ function Header() {
               <li><a href="#services" onClick={handleCloseMenu}>Services</a></li>
               <li><a href="#projects" onClick={handleCloseMenu}>Products</a></li>
               <li><a href="#recent-blog-posts" onClick={handleCloseMenu}>Gallery</a></li>
+              <li><a href="#suppliers" onClick={handleCloseMenu}>Suppliers</a></li>
               <li><a href="#contact" onClick={handleCloseMenu}>Contact</a></li>
             </ul>
 

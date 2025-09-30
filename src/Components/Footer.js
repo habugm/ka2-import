@@ -16,8 +16,8 @@ function Footer() {
         <div className="footer-contact pt-2">
           <p>Lideta Subcity, Blen Plaza 7<sup>th</sup> Floor</p>
           <p>Addis Ababa, Ethiopia</p>
-          <p className="mt-3"><strong>Phone:</strong> <span>+251 993 45 10 76</span></p>
-          <p><strong>Email:</strong> <span>info@ka2-import.com</span></p>
+          <p className="mt-3"><strong>Phone:</strong> <span>+251 911 46 17 52</span></p>
+          <p><strong>Email:</strong> <span>ka2kibrom@gmail.com</span></p>
         </div>
         
       </div>

@@ -97,7 +97,7 @@ function Home() {
       
       <div className="col-lg-5 d-flex align-items-center">
         <div className="w-100">
-          <img src="assets/img/logo2.png" className="img-fluid rounded" alt="KA2 Import" />
+          <img src="assets/img/logoblue.png" className="img-fluid rounded" alt="KA2 Import" />
         </div>
       </div>
     </div>
@@ -145,26 +145,31 @@ function Home() {
   <section id="projects" className="features section">
     <div className="container section-title">
       <h2>Products</h2>
-      <p>KA2 General Import & Export provides quality construction, electrical, household materials, and a diverse range of products including speakers, slippers, playing cards, and more.</p>
+      <p>KA2 General Import & Export provides quality construction, electrical, household, Sanitary materials, Tyres, and a diverse range of products including speakers, slippers, playing cards, and more.</p>
     </div>
   <div className="container">
     <ul className="nav nav-tabs row  g-2 d-flex" role="tablist" style={{backgroundColor:"#003366"}}>
-      <li className="nav-item col-3" role="presentation">
+      <li className="nav-item col" role="presentation">
         <a className="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1" aria-selected="true" role="tab">
           <h4>Construction</h4>
         </a>
       </li>{/* End tab nav item */}
-      <li className="nav-item col-3" role="presentation">
+      <li className="nav-item col" role="presentation">
         <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" aria-selected="false" tabIndex={-1} role="tab">
           <h4>Electrical</h4>
         </a>{/* End tab nav item */}
       </li>
-      <li className="nav-item col-3" role="presentation">
+      <li className="nav-item col" role="presentation">
         <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" aria-selected="false" tabIndex={-1} role="tab">
           <h4>Household</h4>
         </a>
       </li>{/* End tab nav item */}
-      <li className="nav-item col-3" role="presentation">
+      <li className="nav-item col" role="presentation">
+        <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5" aria-selected="false" tabIndex={-1} role="tab">
+          <h4>Sanitary</h4>
+        </a>
+      </li>
+            <li className="nav-item col" role="presentation">
         <a className="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" aria-selected="false" tabIndex={-1} role="tab">
           <h4>Others</h4>
         </a>
@@ -324,39 +329,124 @@ function Home() {
       <div className="tab-pane fade" id="features-tab-2" role="tabpanel">
         <div className="row">
           
-          <div className="col-6 col-lg-3 text-center mb-4">
+          <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/electrical/1.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>A</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/electrical/2.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>B</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/electrical/3.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>C</h6>
+     
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/electrical/4.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>D</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/electrical/5.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>E</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/electrical/6.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>F</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/electrical/7.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>G</h6>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/8.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/9.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/10.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/11.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/12.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/13.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/14.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/15.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/16.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/17.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/18.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/19.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/20.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/21.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/22.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/23.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/electrical/24.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+      
     </div>
 
         </div>
@@ -364,64 +454,309 @@ function Home() {
       <div className="tab-pane fade" id="features-tab-3" role="tabpanel">
         <div className="row">
          
-         <div className="col-6 col-lg-3 text-center mb-4">
+         <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/household/1.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>A</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/household/2.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>B</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/household/3.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>C</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/household/4.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>D</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/household/5.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>E</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/household/6.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>F</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/household/7.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>G</h6>
+      
     </div>
 
-    <div className="col-6 col-lg-3 text-center mb-4">
+    <div className="col-4 col-lg-2 text-center mb-4">
       <img src="assets/img/household/8.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
-      <h6>H</h6>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/9.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/10.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/11.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/12.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/13.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/14.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/15.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/16.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/17.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/18.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/19.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/20.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/21.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/22.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/23.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/household/24.jpg" className="img-fluid rounded mb-2" alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}/>
     </div>
 
         </div>
       </div>
+
+
+      <div className="tab-pane fade" id="features-tab-5" role="tabpanel">
+        <div className="row">
+          
+          <div className="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0">
+  <div className="row">
+    {/* Project 1 */}
+    {/* <div className="col-6 col-lg-3 text-center mb-4">
+      <img src="assets/img/construction/1.jpg" className="img-fluid rounded mb-2" alt="Project 1" />
+      <h6>A</h6>
+    </div> */}
+    <div
+  className="col-4 col-lg-2 text-center mb-4"
+  
+>
+  <img
+    src="assets/img/sanitary/1.jpg"
+    className="img-fluid rounded mb-2"
+    alt="Project 1" style={{ border: "2px solid black", padding: "2px" }}
+  />
+  
+</div>
+
+    {/* Project 2 */}
+    <div className="col-4 col-lg-2 text-center mb-4" >
+      <img src="assets/img/sanitary/2.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    {/* Project 3 */}
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/3.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }} />
+      
+    </div>
+
+    {/* Project 4 */}
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/4.jpg" className="img-fluid rounded mb-2" alt="Project 4"  style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/5.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/6.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/7.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/9.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/10.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/11.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/12.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/8.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/13.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/14.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/15.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/16.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/17.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/18.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/20.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/21.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/22.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/23.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/24.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/25.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/26.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/27.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/28.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+    <div className="col-4 col-lg-2 text-center mb-4">
+      <img src="assets/img/sanitary/29.jpg" className="img-fluid rounded mb-2" alt="Project 3" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+    </div>
+
+  </div>
+</div>
+
+          
+        </div>
+      </div>
+
+
       <div className="tab-pane fade" id="features-tab-4" role="tabpanel">
         <div className="row">
           <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
             <h3>KA2 IMPORT</h3>
             <p className="fst-italic">
-              In addition to construction and electrical supplies, KA2 General Import and Export also imports a variety of consumer products to meet everyday needs. From lifestyle items to educational essentials, we ensure quality and affordability across all categories.
+              In addition to construction, Household, Sanitary and electrical supplies, KA2 General Import and Export also imports Tyres and a variety of consumer products to meet everyday needs. From lifestyle items to educational essentials, we ensure quality and affordability across all categories.
             </p>
             <ul>
+              <li><i className="bi bi-check2-all" /> <span>Tyres</span></li>
               <li><i className="bi bi-check2-all" /> <span>Speakers and electronic accessories</span></li>
               <li><i className="bi bi-check2-all" /> <span>School bags and educational supplies</span></li>
               <li><i className="bi bi-check2-all" /> <span>Slippers, playing cards, and other general goods</span></li>
             </ul>
           </div>
           <div className="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="assets/img/ka2-logo.png" alt className="img-fluid" />
-          </div>
+  <video 
+    src="assets/img/tyre/1.mp4" 
+    className="img-fluid" 
+    controls
+    loop
+    style={{ maxHeight: "400px", objectFit: "contain" }}
+  />
+</div>
+
         </div>
       </div>
     </div>
@@ -505,7 +840,70 @@ function Home() {
 
 
 
-<section id="contact" className="contact section">
+
+<section id="suppliers" className="services section light-background">
+    {/* Section Title */}
+    <div className="container section-title">
+      <h2>Our Trusted Suppliers</h2>
+      <p>Global Suppliers - Partnership in Quality - Photos With Some Of Our Suppliers</p>
+    </div>{/* End Section Title */}
+    <div className="container">
+      <div className="row gy-4">
+        <div className="col-lg-4 col-md-6">
+          <div className="service-item  position-relative">
+            <img src="assets/img/suppliers/1.jpg" className="img-fluid rounded mb-2" alt="Project 1"/>
+
+                      </div>
+        </div>{/* End Service Item */}
+        <div className="col-lg-4 col-md-6">
+          <div className="service-item position-relative">
+           <img src="assets/img/suppliers/2.jpg" className="img-fluid rounded mb-2" alt="Project 1"/>
+
+                    </div>
+        </div>{/* End Service Item */}
+        <div className="col-lg-4 col-md-6">
+          <div className="service-item position-relative">
+           <img src="assets/img/suppliers/5.jpg" className="img-fluid rounded mb-2" alt="Project 1"/>
+
+                    </div>
+        </div>
+        <div className="col-lg-4 col-md-6">
+          <div className="service-item position-relative">
+           <img src="assets/img/suppliers/8.jpg" className="img-fluid rounded mb-2" alt="Project 1"/>
+
+                    </div>
+        </div>
+        <div className="col-lg-4 col-md-6">
+          <div className="service-item position-relative">
+           <img src="assets/img/suppliers/3.jpg" className="img-fluid rounded mb-2" alt="Project 1"/>
+
+                    </div>
+        </div>
+        <div className="col-lg-4 col-md-6">
+          <div className="service-item position-relative">
+            <img src="assets/img/suppliers/7.jpg" className="img-fluid rounded mb-2" alt="Project 1"/>
+
+                               </div>
+        </div>
+
+        <div className="col-lg-4 col-md-6">
+          <div className="service-item position-relative">
+            <img src="assets/img/suppliers/8.jpg" className="img-fluid rounded mb-2" alt="Project 1"/>
+
+                               </div>
+        </div>
+        
+      </div>
+    </div>
+  </section> 
+
+
+
+
+
+
+
+<section id="contact" className="contact section" style={{ backgroundColor:"#cfd0d1ff" }}>
   <div className="container section-title">
       <h2>Contact US</h2>
       <p> Contact US with the following Informations</p>
@@ -523,14 +921,14 @@ function Home() {
         <div className="info-item d-flex flex-column justify-content-center align-items-center">
           <i className="bi bi-telephone" />
           <h3>Call Us</h3>
-          <p>+251 993 45 10 76</p>
+          <p>+251 911 46 17 52</p>
         </div>
       </div>{/* End Info Item */}
       <div className="col-lg-3 col-md-6">
         <div className="info-item d-flex flex-column justify-content-center align-items-center">
           <i className="bi bi-envelope" />
           <h3>Email Us</h3>
-          <p>info@ka2-import.com</p>
+          <p>ka2kibrom@gmail.com</p>
         </div>
       </div>{/* End Info Item */}
     </div>
