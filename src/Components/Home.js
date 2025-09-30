@@ -55,7 +55,7 @@ function Home() {
         <div className="row justify-content-center">
           <div className="col-lg-6 text-center">
             <h2>KA2 General Import & Export</h2>
-            <p>KA2 General Import and Export delivers quality construction and electrical materials to power modern projects</p>
+            <p>KA2 General Import and Export delivers quality construction, Sanitary, Household and electrical materials to power modern projects</p>
               <a href="#get-started" className="btn-get-started">Get Started</a>
           </div>
         </div>
@@ -89,9 +89,12 @@ function Home() {
       <div className="col-lg-6 d-flex align-items-center">
         <div className="content">
           <h3>About Us.</h3>
-          <p><strong>KA2 General Import and Export PLC</strong> was founded in 2018 with the vision of becoming one of Ethiopia’s and most African countries most dependable providers of construction and electrical materials. Since our establishment, we have proudly built a reputation for reliability, professionalism, and quality service. Our company plays a vital role in supporting the nation’s infrastructure development by supplying materials that meet the highest standards of durability and performance.</p>
+          <p><strong>KA2 General Import and Export PLC</strong> was founded in 2018 with the vision of becoming one of Ethiopia’s most dependable providers of construction and electrical materials with an initial capital of just $17,574.69. Since our establishment, we have proudly built a reputation for reliability, professionalism, and quality service. Our company plays a vital role in supporting the nation’s infrastructure development by supplying materials that meet the highest standards of durability and performance.</p>
           
-          <p>At KA2, we believe in creating long-term value for our clients through honesty, innovation, and commitment. From individual builders to large-scale contractors, we serve a diverse range of customers with products tailored to their needs. As Ethiopia continues to grow, we remain committed to being a trusted partner in building the future — one project at a time.</p>
+          <p>At KA2, we believe in creating long-term value for our clients through honesty, innovation, and commitment. From individual builders to large-scale contractors, we serve a diverse range of customers with products tailored to their needs. As Ethiopia continues to grow, we remain committed to being a trusted partner in building the future.</p>
+          <p>Over the years, our company has expanded its operations significantly. We currently operate two warehouses—one in Addis Ababa and another in Mekelle—ensuring that our customers have convenient access to our products. Our headquarters is located in Addis Ababa, while our branch office is based in Mekelle. On average, we import 110 containers of goods annually to meet the growing demand of our clients.</p>
+          <p>Today, KA2 General Import and Export PLC employs above 50 skilled and dedicated staff members who are the backbone of our success and we have around $1,100,000.00 annual transaction. Together, we continue to expand our reach and strengthen our role as a trusted supplier across Ethiopia and beyond.</p>
+          <p>Now, We have finished all our researches and preparations to expand our work to so many African countries specially Angola, Congo, South Africa, Tanzania, Rwanda, and Uganda</p>
         </div>
       </div>
       
@@ -117,7 +120,7 @@ function Home() {
               <i class="bi bi-arrow-down-circle-fill" style={{color:'#003366'}} />
             </div>
             <h3 style={{color:'#003366'}}>Imports</h3>
-            <p>At KA2 General Import and Export, we specialize in importing high-quality construction and electrical materials from trusted international suppliers. Our import services are designed to provide Ethiopian businesses, contractors, and individuals with access to durable, reliable, and modern products that meet global standards.</p>
+            <p>At KA2 General Import and Export, we specialize in importing high-quality construction, Sanitary, Household and electrical materials from trusted international suppliers. Our import services are designed to provide Ethiopian and some African businesses, contractors, and individuals with access to durable, reliable, and modern products that meet global standards.</p>
           </div>
         </div>{/* End Service Item */}
         <div className="col-lg-4 col-md-6">
@@ -126,7 +129,7 @@ function Home() {
               <i className="bi bi-shop" style={{color:'#003366'}} />
             </div>
             <h3 style={{color:'#003366'}}>Retail Disribution</h3>
-            <p>Through our retail distribution network, KA2 General Import and Export makes construction and electrical materials easily accessible to customers across Ethiopia. We ensure that contractors, businesses, and individual buyers can find the products they need at competitive prices without compromising on quality.</p>
+            <p>Through our retail distribution network, KA2 General Import and Export makes construction, Sanitary, Household and electrical materials easily accessible to customers across Ethiopia. We ensure that contractors, businesses, and individual buyers can find the products they need at competitive prices without compromising on quality.</p>
           </div>
         </div>{/* End Service Item */}
         <div className="col-lg-4 col-md-6">
