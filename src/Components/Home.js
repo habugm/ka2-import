@@ -54,8 +54,8 @@ function Home() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6 text-center">
-            <h2>KA2 General Import & Export</h2>
-            <p>KA2 General Import and Export delivers quality construction, Sanitary, Household and electrical materials to power modern projects</p>
+            <h2>KA2 Girmay-Tesfay General Import & Export</h2>
+            <p>KA2 Girmay-Tesfay General Import and Export delivers quality construction, Sanitary, Household and electrical materials to power modern projects</p>
               <a href="#get-started" className="btn-get-started">Get Started</a>
           </div>
         </div>
@@ -89,7 +89,7 @@ function Home() {
       <div className="col-lg-6 d-flex align-items-center">
         <div className="content">
           <h3>About Us.</h3>
-          <p><strong>KA2( Kibrom Gebremeskel ) General Import and Export</strong> was founded by Kibrom Gebremeskel in 2018 with the vision of becoming one of Ethiopia’s most dependable providers of construction and electrical materials with an initial capital of just $17,574.69. Since our establishment, we have proudly built a reputation for reliability, professionalism, and quality service. Our company plays a vital role in supporting the nation’s infrastructure development by supplying materials that meet the highest standards of durability and performance.</p>
+          <p><strong>KA2( Girmay Tesfay ) General Import and Export</strong> was founded by Kibrom Gebremeskel in 2024 with the vision of becoming one of Ethiopia’s most dependable providers of construction and electrical materials with an initial capital of just $107,574.69. Since our establishment, we have proudly built a reputation for reliability, professionalism, and quality service. Our company plays a vital role in supporting the nation’s infrastructure development by supplying materials that meet the highest standards of durability and performance.</p>
           
           <p>At KA2, we believe in creating long-term value for our clients through honesty and commitment. From individual builders to large-scale contractors, we serve a diverse range of customers with products tailored to their needs. As Ethiopia continues to grow, we remain committed to being a trusted partner in building the future.</p>
           <p>Over the years, our company has expanded its operations significantly. We currently operate three warehouses—one in Addis Ababa and the other two in Mekelle—ensuring that our customers have convenient access to our products. We also have 1 shop in Addis Ababa city located in Merkato and 2 shops in Mekelle city. Our Headquarter is located in Addis Ababa, while our branch office is based in Mekelle. On average, we import 110 containers of goods from our above 30 trusted global suppliers annually to meet the growing demand of our clients.</p>
@@ -120,7 +120,7 @@ function Home() {
               <i class="bi bi-arrow-down-circle-fill" style={{color:'#003366'}} />
             </div>
             <h3 style={{color:'#003366'}}>Imports</h3>
-            <p>At KA2 General Import and Export, we specialize in importing high-quality construction, Sanitary, Household and electrical materials from trusted international suppliers. Our import services are designed to provide Ethiopian and some African businesses, contractors, and individuals with access to durable, reliable, and modern products that meet global standards.</p>
+            <p>At KA2 Girmay-Tesfay General Import and Export, we specialize in importing high-quality construction, Sanitary, Household and electrical materials from trusted international suppliers. Our import services are designed to provide Ethiopian and some African businesses, contractors, and individuals with access to durable, reliable, and modern products that meet global standards.</p>
           </div>
         </div>{/* End Service Item */}
         <div className="col-lg-4 col-md-6">
@@ -129,7 +129,7 @@ function Home() {
               <i className="bi bi-shop" style={{color:'#003366'}} />
             </div>
             <h3 style={{color:'#003366'}}>Retail Disribution</h3>
-            <p>Through our retail distribution network, KA2 General Import and Export makes construction, Sanitary, Household and electrical materials easily accessible to customers across Ethiopia. We ensure that contractors, businesses, and individual buyers can find the products they need at competitive prices without compromising on quality.</p>
+            <p>Through our retail distribution network, KA2 Girmay-Tesfay General Import and Export makes construction, Sanitary, Household and electrical materials easily accessible to customers across Ethiopia. We ensure that contractors, businesses, and individual buyers can find the products they need at competitive prices without compromising on quality.</p>
           </div>
         </div>{/* End Service Item */}
         <div className="col-lg-4 col-md-6">
@@ -138,7 +138,7 @@ function Home() {
               <i className="bi bi-arrow-up-circle-fill" style={{color:'#003366'}} />
             </div>
             <h3 style={{color:'#003366'}}>Exports</h3>
-            <p>At KA2 General Import and Export, we are expanding our operations to include exports, showcasing Ethiopia’s quality products to international markets. Our export services focus on delivering locally sourced goods that meet global standards, ensuring reliability, consistency, and value for our partners abroad.</p>   
+            <p>At KA2 Girmay-Tesfay General Import and Export, we are expanding our operations to include exports, showcasing Ethiopia’s quality products to international markets. Our export services focus on delivering locally sourced goods that meet global standards, ensuring reliability, consistency, and value for our partners abroad.</p>   
                    </div>
         </div>
         
@@ -148,7 +148,7 @@ function Home() {
   <section id="projects" className="features section">
     <div className="container section-title">
       <h2>Products</h2>
-      <p>KA2 General Import & Export provides quality construction, electrical, household, Sanitary materials, Tyres, and a diverse range of products including speakers, slippers, playing cards, and more.</p>
+      <p>KA2 Girmay-Tesfay General Import & Export provides quality construction, electrical, household, Sanitary materials, Tyres, and a diverse range of products including speakers, slippers, playing cards, and more.</p>
     </div>
   <div className="container">
     <ul className="nav nav-tabs row  g-2 d-flex" role="tablist" style={{backgroundColor:"#003366"}}>
@@ -739,9 +739,9 @@ function Home() {
       <div className="tab-pane fade" id="features-tab-4" role="tabpanel">
         <div className="row">
           <div className="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-            <h3>KA2 IMPORT</h3>
+            <h3>KA2 Girmay-Tesfay IMPORT</h3>
             <p className="fst-italic">
-              In addition to construction, Household, Sanitary and electrical supplies, KA2 General Import and Export also imports Tyres and a variety of consumer products to meet everyday needs. From lifestyle items to educational essentials, we ensure quality and affordability across all categories.
+              In addition to construction, Household, Sanitary and electrical supplies, KA2 Girmay-Tesfay General Import and Export also imports Tyres and a variety of consumer products to meet everyday needs. From lifestyle items to educational essentials, we ensure quality and affordability across all categories.
             </p>
             <ul>
               <li><i className="bi bi-check2-all" /> <span>Tyres</span></li>
