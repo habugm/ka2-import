@@ -49,7 +49,7 @@ function Home() {
       
      <main className="main">
   
-  <section id="hero" className="hero section dark-background">
+  <section id="hero" className="hero section dark-background" >
     <div className="info d-flex align-items-center">
       <div className="container">
         <div className="row justify-content-center">
@@ -83,7 +83,7 @@ function Home() {
       </a>
     </div>
   </section>
-  <section id="get-started" className="get-started section">
+  <section id="get-started" className="get-started section" >
   <div className="container">
     <div className="row justify-content-between gy-4">
       <div className="col-lg-6 d-flex align-items-center">
@@ -105,31 +105,32 @@ function Home() {
       </div>
       <div className="row">
         <h2>Award Winninig</h2>
-        <p>We are an award winning Comapny. Recently we have received an award from Ethiopian customs commission for our highest tax paying record
-      </p>
-      <div className="col-lg-4 col-md-6">
+       
+      <p>Our company is honored to be recognized by the Ethiopian Customs Commission as one of the nation's top taxpayers, reflecting our strong commitment to transparency, compliance, and national development.</p>
+      <p>This award highlights our dedication to responsible business practices and our contribution to Ethiopia's economic growth</p>
+      <div className="col-lg-3 col-md-6">
 
     <img src="assets/img/award/1.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
       
 
       </div>
      
-      <div className="col-lg-4 col-md-6">
+      <div className="col-lg-3 col-md-6">
 
         <img src="assets/img/award/2.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
       
       </div>
-      <div className="col-lg-4 col-md-6">
+      <div className="col-lg-3 col-md-6">
 
         <img src="assets/img/award/3.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
       
       </div>
-      <div className="col-lg-4 col-md-6">
+      <div className="col-lg-3 col-md-6">
 
         <img src="assets/img/award/4.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
       
       </div>
-      <div className="col-lg-4 col-md-6">
+      {/* <div className="col-lg-3 col-md-6">
 
         <img src="assets/img/award/5.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" , maxHeight:"60%" }}/>
       
@@ -138,7 +139,7 @@ function Home() {
 
         <img src="assets/img/award/6.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px", maxHeight:"60%" }}/>
       
-      </div>
+      </div> */}
       </div>
     </div>
   </div>
