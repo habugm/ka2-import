@@ -975,7 +975,7 @@ function Home() {
     </div>
     <div className="row gy-4 mt-1">
       <div className="col-lg-6">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.517386204229!2d38.736390074084134!3d9.016476689186756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8546a60bdbb1%3A0xddf27af4a09ba244!2zQmxlbiBQbGF6YSB8IExpZGV0YSB8IOGJpeGIjOGKlSDhjZXhiIvhi5sgfCDhiI3hi7DhibM!5e0!3m2!1sen!2set!4v1758908753431!5m2!1sen!2set" frameBorder={0} style={{border: 0, width: '100%', height: 400}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.5173872955447!2d38.73630137408413!3d9.01647658918681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8538983457e5%3A0x6a9a5ac81cbd52ba!2sKA2%20Girmay-Tesfay%20General%20Import%20%26%20Export!5e0!3m2!1sen!2set!4v1762155189183!5m2!1sen!2set" frameBorder={0} style={{border: 0, width: '100%', height: 400}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
       </div>{/* End Google Maps */}
       <div className="col-lg-6">
         <form action="forms/contact.php" method="post" className="php-email-form">
