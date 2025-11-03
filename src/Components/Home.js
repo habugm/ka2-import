@@ -103,6 +103,43 @@ function Home() {
           <img src="assets/img/logoblue.png" className="img-fluid rounded" alt="KA2 Import" />
         </div>
       </div>
+      <div className="row">
+        <h2>Award Winninig</h2>
+        <p>We are an award winning Comapny. Recently we have received an award from Ethiopian customs commission for our highest tax paying record
+      </p>
+      <div className="col-lg-4 col-md-6">
+
+    <img src="assets/img/award/1.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+
+      </div>
+     
+      <div className="col-lg-4 col-md-6">
+
+        <img src="assets/img/award/2.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+      </div>
+      <div className="col-lg-4 col-md-6">
+
+        <img src="assets/img/award/3.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+      </div>
+      <div className="col-lg-4 col-md-6">
+
+        <img src="assets/img/award/4.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+      </div>
+      <div className="col-lg-4 col-md-6">
+
+        <img src="assets/img/award/5.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" , maxHeight:"60%" }}/>
+      
+      </div>
+      <div className="col-lg-4 col-md-6">
+
+        <img src="assets/img/award/6.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px", maxHeight:"60%" }}/>
+      
+      </div>
+      </div>
     </div>
   </div>
 </section>
