@@ -83,67 +83,111 @@ function Home() {
       </a>
     </div>
   </section>
-  <section id="get-started" className="get-started section" >
+ <section id="get-started" className="get-started section">
   <div className="container">
     <div className="row justify-content-between gy-4">
       <div className="col-lg-6 d-flex align-items-center">
         <div className="content">
           <h3>About Us.</h3>
-          <p><strong>KA2( Girmay Tesfay ) General Import and Export</strong> was founded in 2024 with the vision of becoming one of Ethiopia’s most dependable providers of construction and electrical materials. Our Managing director is <strong>Mr. Kibrom Gebremeskel</strong>. Since our establishment, we have proudly built a reputation for reliability, professionalism, and quality service. Our company plays a vital role in supporting the nation’s infrastructure development by supplying materials that meet the highest standards of durability and performance.</p>
-          
-          <p>At KA2( Girmay Tesfay ), we believe in creating long-term value for our clients through honesty and commitment. From individual builders to large-scale contractors, we serve a diverse range of customers with products tailored to their needs. As Ethiopia continues to grow, we remain committed to being a trusted partner in building the future.</p>
-          <p>Over the years, our company has expanded its operations significantly. We currently operate three warehouses—one in Addis Ababa and the other two in Mekelle—ensuring that our customers have convenient access to our products. We also have 1 shop in Addis Ababa city located in Merkato and 2 shops in Mekelle city. Our Headquarter is located in Addis Ababa, while our branch office is based in Mekelle. On average, we import 110 containers of goods from our above 30 trusted global suppliers annually to meet the growing demand of our clients.</p>
-          <p>Today, KA2( Girmay Tesfay ) General Import and Export have above 50 skilled and dedicated staff members who are the backbone of our success and we have around $1,500,000.00 annual transaction. Together, we continue to expand our reach and strengthen our role as a trusted supplier across Ethiopia and beyond.</p>
-          <p>Now, We have finished all our researches and preparations to expand our work to many African countries specially Angola, Congo, South Africa, Tanzania, Rwanda, and Uganda</p>
+          <p>
+            <strong>KA2 (Girmay Tesfay) General Import and Export</strong> was founded in 2024 with the vision of becoming one of Ethiopia’s most dependable providers of construction and electrical materials. Our Managing Director is <strong>Mr. Kibrom Gebremeskel</strong>. Since our establishment, we have proudly built a reputation for reliability, professionalism, and quality service. Our company plays a vital role in supporting the nation’s infrastructure development by supplying materials that meet the highest standards of durability and performance.
+          </p>
+
+          <p>
+            At KA2 (Girmay Tesfay), we believe in creating long-term value for our clients through honesty and commitment. From individual builders to large-scale contractors, we serve a diverse range of customers with products tailored to their needs. As Ethiopia continues to grow, we remain committed to being a trusted partner in building the future.
+          </p>
+
+          {/* Read More Button */}
+          <button
+            className="btn btn-primary mt-2 mb-3"
+            type="button"
+            onClick={() => {
+              const moreText = document.getElementById("moreText");
+              const btn = document.getElementById("readMoreBtn");
+              if (moreText.style.display === "none") {
+                moreText.style.display = "block";
+                btn.textContent = "Read Less";
+              } else {
+                moreText.style.display = "none";
+                btn.textContent = "Read More";
+              }
+            }}
+            id="readMoreBtn"
+          >
+            Read More
+          </button>
+
+          {/* Hidden extra content */}
+          <div id="moreText" style={{ display: "none" }}>
+            <p>
+              Over the years, our company has expanded its operations significantly. We currently operate three warehouses—one in Addis Ababa and the other two in Mekelle—ensuring that our customers have convenient access to our products. We also have one shop in Addis Ababa located in Merkato and two shops in Mekelle. Our headquarters is in Addis Ababa, and our branch office is in Mekelle. On average, we import 110 containers of goods from over 30 trusted global suppliers annually to meet the growing demand of our clients.
+            </p>
+            <p>
+              Today, KA2 (Girmay Tesfay) General Import and Export has over 50 skilled and dedicated staff members who are the backbone of our success, with around $1,500,000.00 in annual transactions. Together, we continue to expand our reach and strengthen our role as a trusted supplier across Ethiopia and beyond.
+            </p>
+            <p>
+              Now, we have completed all our research and preparations to expand our work to many African countries, especially Angola, Congo, South Africa, Tanzania, Rwanda, and Uganda.
+            </p>
+          </div>
         </div>
       </div>
-      
+
       <div className="col-lg-5 d-flex align-items-center">
         <div className="w-100">
           <img src="assets/img/logoblue.png" className="img-fluid rounded" alt="KA2 Import" />
         </div>
       </div>
+
+      {/* Award Section */}
       <div className="row">
-        <h2>Award Winninig</h2>
-       
-      <p>Our company is honored to be recognized by the Ethiopian Customs Commission as one of the nation's top taxpayers, reflecting our strong commitment to transparency, compliance, and national development.</p>
-      <p>This award highlights our dedication to responsible business practices and our contribution to Ethiopia's economic growth</p>
-      <div className="col-lg-3 col-md-6">
+        <h2>Award Winning</h2>
+        <p>
+          Our company is honored to be recognized by the Ethiopian Customs Commission as one of the nation's top taxpayers, reflecting our strong commitment to transparency, compliance, and national development.
+        </p>
+        <p>
+          This award highlights our dedication to responsible business practices and our contribution to Ethiopia's economic growth.
+        </p>
 
-    <img src="assets/img/award/1.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
-      
+        <div className="col-lg-3 col-md-6">
+          <img
+            src="assets/img/award/1.jpg"
+            className="img-fluid rounded mb-2"
+            alt="Award 1"
+            style={{ border: "2px solid black", padding: "2px" }}
+          />
+        </div>
 
-      </div>
-     
-      <div className="col-lg-3 col-md-6">
+        <div className="col-lg-3 col-md-6">
+          <img
+            src="assets/img/award/5.jpg"
+            className="img-fluid rounded mb-2"
+            alt="Award 2"
+            style={{ border: "2px solid black", padding: "2px" }}
+          />
+        </div>
 
-        <img src="assets/img/award/2.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
-      
-      </div>
-      <div className="col-lg-3 col-md-6">
+        <div className="col-lg-3 col-md-6">
+          <img
+            src="assets/img/award/6.jpg"
+            className="img-fluid rounded mb-2"
+            alt="Award 3"
+            style={{ border: "2px solid black", padding: "2px" }}
+          />
+        </div>
 
-        <img src="assets/img/award/3.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
-      
-      </div>
-      <div className="col-lg-3 col-md-6">
-
-        <img src="assets/img/award/4.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
-      
-      </div>
-      {/* <div className="col-lg-3 col-md-6">
-
-        <img src="assets/img/award/5.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px" , maxHeight:"60%" }}/>
-      
-      </div>
-      <div className="col-lg-4 col-md-6">
-
-        <img src="assets/img/award/6.jpg" className="img-fluid rounded mb-2" alt="Project 2" style={{ border: "2px solid black", padding: "2px", maxHeight:"60%" }}/>
-      
-      </div> */}
+        <div className="col-lg-3 col-md-6">
+          <img
+            src="assets/img/award/4.jpg"
+            className="img-fluid rounded mb-2"
+            alt="Award 4"
+            style={{ border: "2px solid black", padding: "2px" }}
+          />
+        </div>
       </div>
     </div>
   </div>
 </section>
+
   <section id="services" className="services section light-background" style={{ backgroundColor:"#cfd0d1ff" }}>
     {/* Section Title */}
     <div className="container section-title">
@@ -804,6 +848,65 @@ function Home() {
   </div>
 </section>
 
+<section id="services" className="services section light-background" style={{ backgroundColor:"#cfd0d1ff" }}>
+    {/* Section Title */}
+    <div className="container section-title">
+      <h2>EXPORTS</h2>
+      <p>We Mainly Export 3 Types of Items</p>
+    </div>{/* End Section Title */}
+    <div className="container">
+      <div className="row gy-4">
+        <div className="col-lg-4 col-md-6">
+          <div className="service-item  position-relative">
+            {/* <div className="icon">
+              <i class="bi bi-arrow-down-circle-fill" style={{color:'#003366'}} />
+            </div> */}
+            <h3 style={{color:'#003366'}}>Coffee</h3>
+            <p>We specialize in exporting high-quality coffee beans to other countries</p>
+            <img src="assets/img/export/c1.jpg" className="img-fluid rounded col-6 col-lg-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/c2.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/c3.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/c4.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+      <img src="assets/img/export/c5.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/c6.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+          </div>
+        </div>{/* End Service Item */}
+        <div className="col-lg-4 col-md-6">
+          <div className="service-item position-relative">
+            {/* <div className="icon">
+              <i className="bi bi-shop" style={{color:'#003366'}} />
+            </div> */}
+            <h3 style={{color:'#003366'}}>Live Stock</h3>
+            <p>We also export Live stocks like camels, Sheep, and Goats</p>
+            <img src="assets/img/export/l1.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/l2.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/l3.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/l4.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/l5.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/l6.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+            </div>
+        </div>{/* End Service Item */}
+        <div className="col-lg-4 col-md-6">
+          <div className="service-item position-relative">
+            {/* <div className="icon">
+              <i className="bi bi-arrow-up-circle-fill" style={{color:'#003366'}} />
+            </div> */}
+            <h3 style={{color:'#003366'}}>khat</h3>
+            <p>we export Khat to some countries in need</p>   
+            <img src="assets/img/export/k1.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/k2.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/k3.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      <img src="assets/img/export/k4.jpg" className="img-fluid rounded col-6 col-lg-6 col-xs-6 mb-6" alt="Project 2" style={{ border: "2px solid black", padding: "2px" }}/>
+      
+                   </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
 
 
 
