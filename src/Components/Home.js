@@ -123,7 +123,7 @@ function Home() {
               Over the years, our company has expanded its operations significantly. We currently operate three warehouses—one in Addis Ababa and the other two in Mekelle—ensuring that our customers have convenient access to our products. We also have one shop in Addis Ababa located in Merkato and two shops in Mekelle. Our headquarters is in Addis Ababa, and our branch office is in Mekelle. On average, we import 110 containers of goods from over 30 trusted global suppliers annually to meet the growing demand of our clients.
             </p>
             <p>
-              Today, KA2 (Girmay Tesfay) General Import and Export has over 50 skilled and dedicated staff members who are the backbone of our success, with around $1,500,000.00 in annual transactions. Together, we continue to expand our reach and strengthen our role as a trusted supplier across Ethiopia and beyond.
+              Today, KA2 (Girmay Tesfay) General Import and Export has over 50 skilled and dedicated staff members who are the backbone of our success, with around $2,500,000.00 in annual transactions. Together, we continue to expand our reach and strengthen our role as a trusted supplier across Ethiopia and beyond.
             </p>
             <p>
               Now, we have completed all our research and preparations to expand our work to many African countries, especially Angola, Congo, South Africa, Tanzania, Rwanda, and Uganda.
